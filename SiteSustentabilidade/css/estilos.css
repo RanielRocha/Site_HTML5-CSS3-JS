@@ -1,0 +1,104 @@
+ /* TAGS */
+
+body{
+    background-color: #dbdbdb;
+    background-position: center;
+    align-items: center;
+}
+
+h1{
+    font-family: Helvetica, 'Times New Roman', Arial;
+    color: #014b0d;
+    /*text-shadow: #ffffff 2px 2px 2px;*/
+    text-align: center;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-family: Helvetica, 'Times New Roman', Arial;
+    font-weight: bold;
+    color: #014b0d;
+    /*text-shadow: #ffffff 2px 2px 2px;*/
+}
+
+h3{
+    font-family: Helvetica, 'Times New Roman', Arial;
+    font-weight: bold;
+    color: #014b0d;
+    /*text-shadow: #ffffff 2px 2px 2px;*/
+}
+
+footer{
+     height: 70px;
+     background-color: #555555;
+     text-align: center;
+     font-weight: bold;
+     margin-top: 50px;
+     margin-bottom: 0px;
+     clear: both;
+     position: static;
+ } 
+
+figcaption{
+    background-color: #756f6f00;
+    margin-bottom: 20px;
+}
+
+
+ /* IDs */
+
+#btnSustentabilidade{
+    float: left;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: black 2px 2px 1px;
+}
+
+#btnSustentabilidade:hover{
+    color: #005816;
+}
+
+
+ /* CLASSES */
+
+.textos{
+    font-family: Helvetica, 'Times New Roman',  Arial;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    /*text-shadow: rgb(241, 241, 241) 1px 1px 1px;*/
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.divCentro{
+    max-width: 85%;
+    margin: auto;
+    position: relative;
+}
+
+.divDireita{
+    max-width: 50%;
+    max-height: auto;
+    margin-right: auto;
+    position: relative;
+    border: #005816 solid 3px;
+}
+
+.divEsquerda{
+    max-width: 50%;
+    max-height: auto;
+    margin-left: auto;
+    margin-top: auto;
+    position: relative;
+    border: #005816 solid 3px;
+}
+
+.imagens{
+    text-align: center;
+}
